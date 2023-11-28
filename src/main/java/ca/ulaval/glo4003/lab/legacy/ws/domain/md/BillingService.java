@@ -48,7 +48,7 @@ public class BillingService {
                                      LocalTime.parse(r.getString("e_time")));
           }
 
-          l_valeur += 600 * (duree.toHours() / 8.0);
+          l_valeur += 2000 * (duree.toHours() / 8.0);
         }
       }
     }
