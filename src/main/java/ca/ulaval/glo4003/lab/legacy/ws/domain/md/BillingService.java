@@ -52,7 +52,8 @@ public class BillingService {
         }
       }
     }
-
+    st.close();
+    c.close();
     return l_valeur;
   }
 
